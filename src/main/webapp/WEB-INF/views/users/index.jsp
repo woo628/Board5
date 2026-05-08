@@ -19,7 +19,7 @@
 	<div><a href="/Users/FindForm">회원 검색</a></div>
 	<div><a href="/Users/AddForm">회원 등록</a></div>
 	<div><a href="/Users/FindForm2">회원 수정</a></div>
-	<div><a href="/Users/FindForm">회원 삭제</a></div>
+	<div><a href="/Users/FindForm3">회원 삭제</a></div>
 	<div><a href="/">돌아가기</a></div>
  </main>
 </body>

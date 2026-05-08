@@ -61,6 +61,11 @@ public class UserController {
 		return "users/find2";
 	}
 	
+	@RequestMapping("/FindForm3")
+	public String findform3(UserDTO userDTO) {
+		return "users/find3";
+	}
+	
 	@RequestMapping("/UpdateForm2")
 	public String find2(UserDTO userDTO, Model model) {
 		UserDTO user = usermapper.finduser(userDTO);

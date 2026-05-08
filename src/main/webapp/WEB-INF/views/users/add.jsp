@@ -12,7 +12,7 @@ table { width: 100%; margin-top: 10%;}
 td { padding: 5px 10px; text-align: center; &:nth-of-type(1) {background: black; color: white; }}
 tr:last-child> td {background: white; border: 1px solid black;}
 input[type=text], input[type=password] {width: 100%;}
-input[type=button],input[type=submit] {width: 100px;}
+input[type=submit] {width: 50px;}
 input[name=userid] {width: 64%;}
 </style>
 </head>

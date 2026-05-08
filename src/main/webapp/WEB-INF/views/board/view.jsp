@@ -50,7 +50,7 @@
 	 <tr>
 	    <td colspan="4">
 	     <a href="/Board/WriteForm?menu_id=${board.menu_id}" class="btn btn-primary">새글쓰기</a>
-	     <c:if test="${sessionScope.login.userid eq board.writer}">
+	     <c:if test="${sessionScope.login.userid eq board.writer or sessionScope.login.userid eq 'admin'}">
 	     <a href="/Board/UpdateForm?idx=${board.idx}&menu_id=${board.menu_id}" class="btn btn-warning">수정</a>
 	     <a href="/Board/Delete?idx=${board.idx}&menu_id=${board.menu_id}" class="btn btn-danger">삭제</a>
 	     </c:if>

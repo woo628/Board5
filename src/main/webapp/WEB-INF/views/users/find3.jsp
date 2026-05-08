@@ -17,7 +17,7 @@ input[type=button],input[type=submit] {width: 100px;}
 </head>
 <body>
 	<main>
-		<form action="/Users/UpdateForm2" method="post">
+		<form action="/Users/Find3" method="post">
 		 <table>
 		 	<tr>
 		 		<td>아이디</td>
